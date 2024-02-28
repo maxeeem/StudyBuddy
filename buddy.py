@@ -2,8 +2,8 @@ from util import *
 
 
 # Event API & Web API
-app = App(token=os.environ["SLACK_BOT_TOKEN"])
-client = WebClient(os.environ["SLACK_BOT_TOKEN"])
+app = App(token=SLACK_APP_TOKEN)
+client = WebClient(SLACK_BOT_TOKEN)
 
 uid = "U06DQJ884ET" # Buddy
 
